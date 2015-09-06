@@ -1,0 +1,12 @@
+#top-navigation ul{
+    margin-bottom: 0;
+}
+#header{
+    min-height: 128px;
+    background: #2e2e2e;
+}
+#top-navigation{
+    background: #232323;
+    line-height: 30px;
+    color: #fff;
+}

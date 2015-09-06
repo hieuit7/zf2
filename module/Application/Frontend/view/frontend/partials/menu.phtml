@@ -1,0 +1,18 @@
+<nav class="<?php echo $this->navigation()->menu()->getUlClass(); ?>">
+    <ul class="unstyled list-inline">
+        <?php
+        foreach ($this->container as $page) {
+            
+            ?>
+
+            <li class="<?php echo $page->getActive()?'active':''?>">
+
+                <?php
+                echo $this->navigation()->menu()->htmlify($page) . PHP_EOL;
+                ?>
+            </li>
+            <?php
+        }
+        ?>
+    </ul>
+</nav>

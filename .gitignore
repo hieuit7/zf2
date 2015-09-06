@@ -1,0 +1,8 @@
+nbproject/*
+vendor/*
+composer.lock
+composer.phar
+/nbproject/
+/vendor/
+.project
+.settings/
